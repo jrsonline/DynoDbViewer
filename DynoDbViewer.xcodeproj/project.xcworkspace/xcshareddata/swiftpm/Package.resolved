@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Dyno",
+        "repositoryURL": "https://github.com/jrsonline/Dyno.git",
+        "state": {
+          "branch": "master",
+          "revision": "990e938f7acee1e18b392700c0846e9dfb61ff98",
+          "version": null
+        }
+      },
+      {
+        "package": "StrictlySwiftLib",
+        "repositoryURL": "https://github.com/jrsonline/StrictlySwiftLib.git",
+        "state": {
+          "branch": "master",
+          "revision": "147339b875d1c9f2c319131f539c5ce782c51305",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}

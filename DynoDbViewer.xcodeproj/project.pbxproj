@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C096E54C236BCE0C00B46897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E54B236BCE0C00B46897 /* AppDelegate.swift */; };
+		C096E54E236BCE0C00B46897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E54D236BCE0C00B46897 /* ContentView.swift */; };
+		C096E550236BCE1400B46897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E54F236BCE1400B46897 /* Assets.xcassets */; };
+		C096E553236BCE1400B46897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E552236BCE1400B46897 /* Preview Assets.xcassets */; };
+		C096E556236BCE1400B46897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E554236BCE1400B46897 /* Main.storyboard */; };
+		C096E563236BD07C00B46897 /* Dyno in Frameworks */ = {isa = PBXBuildFile; productRef = C096E562236BD07C00B46897 /* Dyno */; settings = {ATTRIBUTES = (Required, ); }; };
+		C096E566236BD1D800B46897 /* StrictlySwiftLib in Frameworks */ = {isa = PBXBuildFile; productRef = C096E565236BD1D800B46897 /* StrictlySwiftLib */; };
+		C09AF336237FAEE000E15386 /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF335237FAEE000E15386 /* TableDataSource.swift */; };
+		C09AF338237FAF3000E15386 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF337237FAF3000E15386 /* Dinosaur.swift */; };
+		C09AF33A237FAF5600E15386 /* TableDataSourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */; };
+		C09AF33C237FAF8700E15386 /* TableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF33B237FAF8700E15386 /* TableState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C096E548236BCE0C00B46897 /* DynoDbViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynoDbViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C096E54B236BCE0C00B46897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C096E54D236BCE0C00B46897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C096E54F236BCE1400B46897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C096E552236BCE1400B46897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C096E555236BCE1400B46897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C096E557236BCE1400B46897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C096E558236BCE1400B46897 /* DynoDbViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynoDbViewer.entitlements; sourceTree = "<group>"; };
+		C096E56F236BD59100B46897 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C09AF335237FAEE000E15386 /* TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
+		C09AF337237FAF3000E15386 /* Dinosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
+		C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSourceLoader.swift; sourceTree = "<group>"; };
+		C09AF33B237FAF8700E15386 /* TableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableState.swift; sourceTree = "<group>"; };
+		C0C9E153236CE546009AC619 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Dyno/Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C096E545236BCE0C00B46897 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C096E566236BD1D800B46897 /* StrictlySwiftLib in Frameworks */,
+				C096E563236BD07C00B46897 /* Dyno in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C096E53F236BCE0C00B46897 = {
+			isa = PBXGroup;
+			children = (
+				C096E54A236BCE0C00B46897 /* DynoDbViewer */,
+				C096E549236BCE0C00B46897 /* Products */,
+				C096E567236BD1F600B46897 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C096E549236BCE0C00B46897 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C096E548236BCE0C00B46897 /* DynoDbViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C096E54A236BCE0C00B46897 /* DynoDbViewer */ = {
+			isa = PBXGroup;
+			children = (
+				C09AF33D237FB1F000E15386 /* Viewer */,
+				C096E54B236BCE0C00B46897 /* AppDelegate.swift */,
+				C096E54F236BCE1400B46897 /* Assets.xcassets */,
+				C096E554236BCE1400B46897 /* Main.storyboard */,
+				C096E557236BCE1400B46897 /* Info.plist */,
+				C096E558236BCE1400B46897 /* DynoDbViewer.entitlements */,
+				C096E551236BCE1400B46897 /* Preview Content */,
+			);
+			path = DynoDbViewer;
+			sourceTree = "<group>";
+		};
+		C096E551236BCE1400B46897 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C096E552236BCE1400B46897 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C096E567236BD1F600B46897 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C9E153236CE546009AC619 /* Package.swift */,
+				C096E56F236BD59100B46897 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09AF33D237FB1F000E15386 /* Viewer */ = {
+			isa = PBXGroup;
+			children = (
+				C096E54D236BCE0C00B46897 /* ContentView.swift */,
+				C09AF335237FAEE000E15386 /* TableDataSource.swift */,
+				C09AF337237FAF3000E15386 /* Dinosaur.swift */,
+				C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */,
+				C09AF33B237FAF8700E15386 /* TableState.swift */,
+			);
+			path = Viewer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C096E547236BCE0C00B46897 /* DynoDbViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C096E55B236BCE1400B46897 /* Build configuration list for PBXNativeTarget "DynoDbViewer" */;
+			buildPhases = (
+				C096E544236BCE0C00B46897 /* Sources */,
+				C096E545236BCE0C00B46897 /* Frameworks */,
+				C096E546236BCE0C00B46897 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynoDbViewer;
+			packageProductDependencies = (
+				C096E562236BD07C00B46897 /* Dyno */,
+				C096E565236BD1D800B46897 /* StrictlySwiftLib */,
+			);
+			productName = DynoDbViewer;
+			productReference = C096E548236BCE0C00B46897 /* DynoDbViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C096E540236BCE0C00B46897 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = strictlyswift;
+				TargetAttributes = {
+					C096E547236BCE0C00B46897 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = C096E543236BCE0C00B46897 /* Build configuration list for PBXProject "DynoDbViewer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C096E53F236BCE0C00B46897;
+			packageReferences = (
+				C096E561236BD07C00B46897 /* XCRemoteSwiftPackageReference "Dyno" */,
+				C096E564236BD1D800B46897 /* XCRemoteSwiftPackageReference "StrictlySwiftLib" */,
+			);
+			productRefGroup = C096E549236BCE0C00B46897 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C096E547236BCE0C00B46897 /* DynoDbViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C096E546236BCE0C00B46897 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C096E556236BCE1400B46897 /* Main.storyboard in Resources */,
+				C096E553236BCE1400B46897 /* Preview Assets.xcassets in Resources */,
+				C096E550236BCE1400B46897 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C096E544236BCE0C00B46897 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09AF33A237FAF5600E15386 /* TableDataSourceLoader.swift in Sources */,
+				C09AF33C237FAF8700E15386 /* TableState.swift in Sources */,
+				C096E54E236BCE0C00B46897 /* ContentView.swift in Sources */,
+				C09AF336237FAEE000E15386 /* TableDataSource.swift in Sources */,
+				C09AF338237FAF3000E15386 /* Dinosaur.swift in Sources */,
+				C096E54C236BCE0C00B46897 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C096E554236BCE1400B46897 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C096E555236BCE1400B46897 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C096E559236BCE1400B46897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-D DEBUG -Xfrontend -warn-long-expression-type-checking=200 -D DEBUG -Xfrontend -warn-long-function-bodies=100";
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C096E55A236BCE1400B46897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C096E55C236BCE1400B46897 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DynoDbViewer/DynoDbViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DynoDbViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HR6TL3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DynoDbViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strictlyswift.DynoDbViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C096E55D236BCE1400B46897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DynoDbViewer/DynoDbViewer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"DynoDbViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HR6TL3C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DynoDbViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.strictlyswift.DynoDbViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C096E543236BCE0C00B46897 /* Build configuration list for PBXProject "DynoDbViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C096E559236BCE1400B46897 /* Debug */,
+				C096E55A236BCE1400B46897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C096E55B236BCE1400B46897 /* Build configuration list for PBXNativeTarget "DynoDbViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C096E55C236BCE1400B46897 /* Debug */,
+				C096E55D236BCE1400B46897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C096E561236BD07C00B46897 /* XCRemoteSwiftPackageReference "Dyno" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrsonline/Dyno.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		C096E564236BD1D800B46897 /* XCRemoteSwiftPackageReference "StrictlySwiftLib" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jrsonline/StrictlySwiftLib.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C096E562236BD07C00B46897 /* Dyno */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C096E561236BD07C00B46897 /* XCRemoteSwiftPackageReference "Dyno" */;
+			productName = Dyno;
+		};
+		C096E565236BD1D800B46897 /* StrictlySwiftLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C096E564236BD1D800B46897 /* XCRemoteSwiftPackageReference "StrictlySwiftLib" */;
+			productName = StrictlySwiftLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C096E540236BCE0C00B46897 /* Project object */;
+}
