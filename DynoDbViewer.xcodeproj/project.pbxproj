@@ -24,6 +24,7 @@
 		C096E556236BCE1400B46897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E554236BCE1400B46897 /* Main.storyboard */; };
 		C096E563236BD07C00B46897 /* Dyno in Frameworks */ = {isa = PBXBuildFile; productRef = C096E562236BD07C00B46897 /* Dyno */; settings = {ATTRIBUTES = (Required, ); }; };
 		C096E566236BD1D800B46897 /* StrictlySwiftLib in Frameworks */ = {isa = PBXBuildFile; productRef = C096E565236BD1D800B46897 /* StrictlySwiftLib */; };
+		C09FAB2823CEC7A6004F1C7D /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = C09FAB2723CEC7A6004F1C7D /* .gitignore */; };
 		C0A7E14123BC5A4100A6E1F5 /* DynoTableDataView in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14023BC5A4100A6E1F5 /* DynoTableDataView */; };
 		C0A7E14323BC5A4100A6E1F5 /* Dyno in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14223BC5A4100A6E1F5 /* Dyno */; };
 		C0A7E14523BC5A4100A6E1F5 /* StrictlySwiftLib in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14423BC5A4100A6E1F5 /* StrictlySwiftLib */; };
@@ -54,6 +55,7 @@
 		C096E558236BCE1400B46897 /* DynoDbViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynoDbViewer.entitlements; sourceTree = "<group>"; };
 		C096E56F236BD59100B46897 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C09B01BE23BA641100DF2BEA /* DynoTableDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DynoTableDataView; path = ../DynoTableDataView; sourceTree = "<group>"; };
+		C09FAB2723CEC7A6004F1C7D /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		C0C5EC992390B916004F868C /* iPadDynoDbViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadDynoDbViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C5EC9B2390B916004F868C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0C5EC9D2390B916004F868C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				C0C5ECA62390B91E004F868C /* LaunchScreen.storyboard */,
 				C0C5ECA92390B91E004F868C /* Info.plist */,
 				C0C5ECA32390B91E004F868C /* Preview Content */,
+				C09FAB2723CEC7A6004F1C7D /* .gitignore */,
 			);
 			path = iPadDynoDbViewer;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C09FAB2823CEC7A6004F1C7D /* .gitignore in Resources */,
 				C0C5ECA82390B91E004F868C /* LaunchScreen.storyboard in Resources */,
 				C0C5ECA52390B91E004F868C /* Preview Assets.xcassets in Resources */,
 				C0C5ECA22390B91E004F868C /* Assets.xcassets in Resources */,
