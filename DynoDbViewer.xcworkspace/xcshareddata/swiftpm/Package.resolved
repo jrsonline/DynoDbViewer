@@ -6,7 +6,7 @@
         "repositoryURL": "https://github.com/jrsonline/Dyno.git",
         "state": {
           "branch": "master",
-          "revision": "4f82e231d8664a5367078ac5dbfbcc42582c519a",
+          "revision": "c3fb3f7a67e8d4e761b3571723063b2a0c020b4c",
           "version": null
         }
       },
@@ -15,7 +15,16 @@
         "repositoryURL": "https://github.com/jrsonline/StrictlySwiftLib.git",
         "state": {
           "branch": "master",
-          "revision": "76e36f97dc7d9ae45c2bdfbbc53f1a257210c4f9",
+          "revision": "34465e6c4f4ca5b76ddbc4baa8d3ebe43b87d11d",
+          "version": null
+        }
+      },
+      {
+        "package": "StrictlySwiftTestLib",
+        "repositoryURL": "https://github.com/jrsonline/StrictlySwiftTestLib.git",
+        "state": {
+          "branch": "master",
+          "revision": "a302b9e3b0da657e89bcdb4d3ba1ce674dc62aaa",
           "version": null
         }
       }

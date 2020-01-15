@@ -7,33 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C048314E23BA6461006E508A /* DynoTableDataView in Frameworks */ = {isa = PBXBuildFile; productRef = C048314D23BA6461006E508A /* DynoTableDataView */; };
+		C048DC7023C82F550042E5E4 /* DynoTableRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6823C82F550042E5E4 /* DynoTableRenderer.swift */; };
+		C048DC7123C82F550042E5E4 /* DynoObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6923C82F550042E5E4 /* DynoObject.swift */; };
+		C048DC7223C82F550042E5E4 /* DynoTableDrawSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6A23C82F550042E5E4 /* DynoTableDrawSettings.swift */; };
+		C048DC7323C82F550042E5E4 /* DynoTableLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6B23C82F550042E5E4 /* DynoTableLoader.swift */; };
+		C048DC7423C82F550042E5E4 /* DynoTableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6C23C82F550042E5E4 /* DynoTableDataView.swift */; };
+		C048DC7523C82F550042E5E4 /* DynoTableFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6D23C82F550042E5E4 /* DynoTableFrame.swift */; };
+		C048DC7623C82F550042E5E4 /* DynoTableContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6E23C82F550042E5E4 /* DynoTableContent.swift */; };
+		C048DC7723C82F550042E5E4 /* DynoTableViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC6F23C82F550042E5E4 /* DynoTableViewState.swift */; };
+		C048DC7923C830190042E5E4 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC7823C830190042E5E4 /* Dinosaur.swift */; };
+		C048DC7B23C831AB0042E5E4 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C048DC7823C830190042E5E4 /* Dinosaur.swift */; };
 		C096E54C236BCE0C00B46897 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E54B236BCE0C00B46897 /* AppDelegate.swift */; };
-		C096E54E236BCE0C00B46897 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C096E54D236BCE0C00B46897 /* ContentView.swift */; };
 		C096E550236BCE1400B46897 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E54F236BCE1400B46897 /* Assets.xcassets */; };
 		C096E553236BCE1400B46897 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C096E552236BCE1400B46897 /* Preview Assets.xcassets */; };
 		C096E556236BCE1400B46897 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C096E554236BCE1400B46897 /* Main.storyboard */; };
 		C096E563236BD07C00B46897 /* Dyno in Frameworks */ = {isa = PBXBuildFile; productRef = C096E562236BD07C00B46897 /* Dyno */; settings = {ATTRIBUTES = (Required, ); }; };
 		C096E566236BD1D800B46897 /* StrictlySwiftLib in Frameworks */ = {isa = PBXBuildFile; productRef = C096E565236BD1D800B46897 /* StrictlySwiftLib */; };
-		C09AF336237FAEE000E15386 /* TableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF335237FAEE000E15386 /* TableDataSource.swift */; };
-		C09AF338237FAF3000E15386 /* Dinosaur.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF337237FAF3000E15386 /* Dinosaur.swift */; };
-		C09AF33A237FAF5600E15386 /* TableDataSourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */; };
-		C09AF33C237FAF8700E15386 /* TableState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09AF33B237FAF8700E15386 /* TableState.swift */; };
+		C0A7E14123BC5A4100A6E1F5 /* DynoTableDataView in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14023BC5A4100A6E1F5 /* DynoTableDataView */; };
+		C0A7E14323BC5A4100A6E1F5 /* Dyno in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14223BC5A4100A6E1F5 /* Dyno */; };
+		C0A7E14523BC5A4100A6E1F5 /* StrictlySwiftLib in Frameworks */ = {isa = PBXBuildFile; productRef = C0A7E14423BC5A4100A6E1F5 /* StrictlySwiftLib */; };
+		C0C5EC9C2390B916004F868C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5EC9B2390B916004F868C /* AppDelegate.swift */; };
+		C0C5EC9E2390B916004F868C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5EC9D2390B916004F868C /* SceneDelegate.swift */; };
+		C0C5ECA02390B916004F868C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C5EC9F2390B916004F868C /* ContentView.swift */; };
+		C0C5ECA22390B91E004F868C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5ECA12390B91E004F868C /* Assets.xcassets */; };
+		C0C5ECA52390B91E004F868C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C5ECA42390B91E004F868C /* Preview Assets.xcassets */; };
+		C0C5ECA82390B91E004F868C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0C5ECA62390B91E004F868C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C048DC6823C82F550042E5E4 /* DynoTableRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableRenderer.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableRenderer.swift; sourceTree = "<group>"; };
+		C048DC6923C82F550042E5E4 /* DynoObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoObject.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoObject.swift; sourceTree = "<group>"; };
+		C048DC6A23C82F550042E5E4 /* DynoTableDrawSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableDrawSettings.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableDrawSettings.swift; sourceTree = "<group>"; };
+		C048DC6B23C82F550042E5E4 /* DynoTableLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableLoader.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableLoader.swift; sourceTree = "<group>"; };
+		C048DC6C23C82F550042E5E4 /* DynoTableDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableDataView.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableDataView.swift; sourceTree = "<group>"; };
+		C048DC6D23C82F550042E5E4 /* DynoTableFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableFrame.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableFrame.swift; sourceTree = "<group>"; };
+		C048DC6E23C82F550042E5E4 /* DynoTableContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableContent.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableContent.swift; sourceTree = "<group>"; };
+		C048DC6F23C82F550042E5E4 /* DynoTableViewState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DynoTableViewState.swift; path = ../../DynoTableDataView/Sources/DynoTableDataView/DynoTableViewState.swift; sourceTree = "<group>"; };
+		C048DC7823C830190042E5E4 /* Dinosaur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dinosaur.swift; path = iPadDynoDbViewer/Dinosaur.swift; sourceTree = SOURCE_ROOT; };
 		C096E548236BCE0C00B46897 /* DynoDbViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynoDbViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C096E54B236BCE0C00B46897 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C096E54D236BCE0C00B46897 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C096E54F236BCE1400B46897 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C096E552236BCE1400B46897 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C096E555236BCE1400B46897 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C096E557236BCE1400B46897 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C096E558236BCE1400B46897 /* DynoDbViewer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynoDbViewer.entitlements; sourceTree = "<group>"; };
 		C096E56F236BD59100B46897 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/MacOSX.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		C09AF335237FAEE000E15386 /* TableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSource.swift; sourceTree = "<group>"; };
-		C09AF337237FAF3000E15386 /* Dinosaur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dinosaur.swift; sourceTree = "<group>"; };
-		C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDataSourceLoader.swift; sourceTree = "<group>"; };
-		C09AF33B237FAF8700E15386 /* TableState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableState.swift; sourceTree = "<group>"; };
+		C09B01BE23BA641100DF2BEA /* DynoTableDataView */ = {isa = PBXFileReference; lastKnownFileType = folder; name = DynoTableDataView; path = ../DynoTableDataView; sourceTree = "<group>"; };
+		C0C5EC992390B916004F868C /* iPadDynoDbViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPadDynoDbViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0C5EC9B2390B916004F868C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C0C5EC9D2390B916004F868C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C0C5EC9F2390B916004F868C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C0C5ECA12390B91E004F868C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C0C5ECA42390B91E004F868C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C0C5ECA72390B91E004F868C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C0C5ECA92390B91E004F868C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C0C9E153236CE546009AC619 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Package.swift; path = ../Dyno/Package.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -42,8 +70,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C048314E23BA6461006E508A /* DynoTableDataView in Frameworks */,
 				C096E566236BD1D800B46897 /* StrictlySwiftLib in Frameworks */,
 				C096E563236BD07C00B46897 /* Dyno in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C5EC962390B916004F868C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7E14523BC5A4100A6E1F5 /* StrictlySwiftLib in Frameworks */,
+				C0A7E14323BC5A4100A6E1F5 /* Dyno in Frameworks */,
+				C0A7E14123BC5A4100A6E1F5 /* DynoTableDataView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +92,9 @@
 		C096E53F236BCE0C00B46897 = {
 			isa = PBXGroup;
 			children = (
+				C09B01BE23BA641100DF2BEA /* DynoTableDataView */,
 				C096E54A236BCE0C00B46897 /* DynoDbViewer */,
+				C0C5EC9A2390B916004F868C /* iPadDynoDbViewer */,
 				C096E549236BCE0C00B46897 /* Products */,
 				C096E567236BD1F600B46897 /* Frameworks */,
 			);
@@ -63,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				C096E548236BCE0C00B46897 /* DynoDbViewer.app */,
+				C0C5EC992390B916004F868C /* iPadDynoDbViewer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,7 +112,7 @@
 		C096E54A236BCE0C00B46897 /* DynoDbViewer */ = {
 			isa = PBXGroup;
 			children = (
-				C09AF33D237FB1F000E15386 /* Viewer */,
+				C048DC7823C830190042E5E4 /* Dinosaur.swift */,
 				C096E54B236BCE0C00B46897 /* AppDelegate.swift */,
 				C096E54F236BCE1400B46897 /* Assets.xcassets */,
 				C096E554236BCE1400B46897 /* Main.storyboard */,
@@ -98,16 +140,34 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C09AF33D237FB1F000E15386 /* Viewer */ = {
+		C0C5EC9A2390B916004F868C /* iPadDynoDbViewer */ = {
 			isa = PBXGroup;
 			children = (
-				C096E54D236BCE0C00B46897 /* ContentView.swift */,
-				C09AF335237FAEE000E15386 /* TableDataSource.swift */,
-				C09AF337237FAF3000E15386 /* Dinosaur.swift */,
-				C09AF339237FAF5600E15386 /* TableDataSourceLoader.swift */,
-				C09AF33B237FAF8700E15386 /* TableState.swift */,
+				C048DC6923C82F550042E5E4 /* DynoObject.swift */,
+				C048DC6E23C82F550042E5E4 /* DynoTableContent.swift */,
+				C048DC6C23C82F550042E5E4 /* DynoTableDataView.swift */,
+				C048DC6A23C82F550042E5E4 /* DynoTableDrawSettings.swift */,
+				C048DC6D23C82F550042E5E4 /* DynoTableFrame.swift */,
+				C048DC6B23C82F550042E5E4 /* DynoTableLoader.swift */,
+				C048DC6823C82F550042E5E4 /* DynoTableRenderer.swift */,
+				C048DC6F23C82F550042E5E4 /* DynoTableViewState.swift */,
+				C0C5EC9B2390B916004F868C /* AppDelegate.swift */,
+				C0C5EC9D2390B916004F868C /* SceneDelegate.swift */,
+				C0C5EC9F2390B916004F868C /* ContentView.swift */,
+				C0C5ECA12390B91E004F868C /* Assets.xcassets */,
+				C0C5ECA62390B91E004F868C /* LaunchScreen.storyboard */,
+				C0C5ECA92390B91E004F868C /* Info.plist */,
+				C0C5ECA32390B91E004F868C /* Preview Content */,
 			);
-			path = Viewer;
+			path = iPadDynoDbViewer;
+			sourceTree = "<group>";
+		};
+		C0C5ECA32390B91E004F868C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C0C5ECA42390B91E004F868C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,9 +189,32 @@
 			packageProductDependencies = (
 				C096E562236BD07C00B46897 /* Dyno */,
 				C096E565236BD1D800B46897 /* StrictlySwiftLib */,
+				C048314D23BA6461006E508A /* DynoTableDataView */,
 			);
 			productName = DynoDbViewer;
 			productReference = C096E548236BCE0C00B46897 /* DynoDbViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C0C5EC982390B916004F868C /* iPadDynoDbViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0C5ECAC2390B91F004F868C /* Build configuration list for PBXNativeTarget "iPadDynoDbViewer" */;
+			buildPhases = (
+				C0C5EC952390B916004F868C /* Sources */,
+				C0C5EC962390B916004F868C /* Frameworks */,
+				C0C5EC972390B916004F868C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadDynoDbViewer;
+			packageProductDependencies = (
+				C0A7E14023BC5A4100A6E1F5 /* DynoTableDataView */,
+				C0A7E14223BC5A4100A6E1F5 /* Dyno */,
+				C0A7E14423BC5A4100A6E1F5 /* StrictlySwiftLib */,
+			);
+			productName = iPadDynoDbViewer;
+			productReference = C0C5EC992390B916004F868C /* iPadDynoDbViewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -145,6 +228,9 @@
 				ORGANIZATIONNAME = strictlyswift;
 				TargetAttributes = {
 					C096E547236BCE0C00B46897 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					C0C5EC982390B916004F868C = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -167,6 +253,7 @@
 			projectRoot = "";
 			targets = (
 				C096E547236BCE0C00B46897 /* DynoDbViewer */,
+				C0C5EC982390B916004F868C /* iPadDynoDbViewer */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +269,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C0C5EC972390B916004F868C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C5ECA82390B91E004F868C /* LaunchScreen.storyboard in Resources */,
+				C0C5ECA52390B91E004F868C /* Preview Assets.xcassets in Resources */,
+				C0C5ECA22390B91E004F868C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -189,12 +286,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C09AF33A237FAF5600E15386 /* TableDataSourceLoader.swift in Sources */,
-				C09AF33C237FAF8700E15386 /* TableState.swift in Sources */,
-				C096E54E236BCE0C00B46897 /* ContentView.swift in Sources */,
-				C09AF336237FAEE000E15386 /* TableDataSource.swift in Sources */,
-				C09AF338237FAF3000E15386 /* Dinosaur.swift in Sources */,
+				C048DC7923C830190042E5E4 /* Dinosaur.swift in Sources */,
 				C096E54C236BCE0C00B46897 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0C5EC952390B916004F868C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C048DC7B23C831AB0042E5E4 /* Dinosaur.swift in Sources */,
+				C048DC7223C82F550042E5E4 /* DynoTableDrawSettings.swift in Sources */,
+				C048DC7323C82F550042E5E4 /* DynoTableLoader.swift in Sources */,
+				C048DC7023C82F550042E5E4 /* DynoTableRenderer.swift in Sources */,
+				C0C5EC9C2390B916004F868C /* AppDelegate.swift in Sources */,
+				C048DC7423C82F550042E5E4 /* DynoTableDataView.swift in Sources */,
+				C048DC7123C82F550042E5E4 /* DynoObject.swift in Sources */,
+				C048DC7723C82F550042E5E4 /* DynoTableViewState.swift in Sources */,
+				C0C5EC9E2390B916004F868C /* SceneDelegate.swift in Sources */,
+				C048DC7523C82F550042E5E4 /* DynoTableFrame.swift in Sources */,
+				C0C5ECA02390B916004F868C /* ContentView.swift in Sources */,
+				C048DC7623C82F550042E5E4 /* DynoTableContent.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +319,14 @@
 				C096E555236BCE1400B46897 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C0C5ECA62390B91E004F868C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C0C5ECA72390B91E004F868C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -262,6 +382,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -317,6 +438,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -348,6 +470,7 @@
 					"$(SDKROOT)/usr/lib/swift",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				OTHER_SWIFT_FLAGS = "-D DEBUG -Xfrontend -warn-long-expression-type-checking=200 -D DEBUG -Xfrontend -warn-long-function-bodies=200";
 				PRODUCT_BUNDLE_IDENTIFIER = com.strictlyswift.DynoDbViewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -382,6 +505,51 @@
 			};
 			name = Release;
 		};
+		C0C5ECAA2390B91E004F868C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPadDynoDbViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HR6TL3C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPadDynoDbViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strictlyswift.iPadDynoDbViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C0C5ECAB2390B91E004F868C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"iPadDynoDbViewer/Preview Content\"";
+				DEVELOPMENT_TEAM = 447HR6TL3C;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iPadDynoDbViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.strictlyswift.iPadDynoDbViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -399,6 +567,15 @@
 			buildConfigurations = (
 				C096E55C236BCE1400B46897 /* Debug */,
 				C096E55D236BCE1400B46897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0C5ECAC2390B91F004F868C /* Build configuration list for PBXNativeTarget "iPadDynoDbViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C0C5ECAA2390B91E004F868C /* Debug */,
+				C0C5ECAB2390B91E004F868C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -425,12 +602,30 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		C048314D23BA6461006E508A /* DynoTableDataView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DynoTableDataView;
+		};
 		C096E562236BD07C00B46897 /* Dyno */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C096E561236BD07C00B46897 /* XCRemoteSwiftPackageReference "Dyno" */;
 			productName = Dyno;
 		};
 		C096E565236BD1D800B46897 /* StrictlySwiftLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C096E564236BD1D800B46897 /* XCRemoteSwiftPackageReference "StrictlySwiftLib" */;
+			productName = StrictlySwiftLib;
+		};
+		C0A7E14023BC5A4100A6E1F5 /* DynoTableDataView */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = DynoTableDataView;
+		};
+		C0A7E14223BC5A4100A6E1F5 /* Dyno */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C096E561236BD07C00B46897 /* XCRemoteSwiftPackageReference "Dyno" */;
+			productName = Dyno;
+		};
+		C0A7E14423BC5A4100A6E1F5 /* StrictlySwiftLib */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = C096E564236BD1D800B46897 /* XCRemoteSwiftPackageReference "StrictlySwiftLib" */;
 			productName = StrictlySwiftLib;

@@ -9,15 +9,18 @@
 import Cocoa
 import SwiftUI
 import Dyno
+import DynoTableDataView
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
     var window: NSWindow!
-
+    static let 🦕 : Dyno = Dyno(options: DynoOptions(log: true))!
+    
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         // Create the SwiftUI view that provides the window contents.
-        let contentView = TableDataView<DinosaurDataTable>()
+//        let contentView = DynoTableDataView<DynoObjectFrame>(dyno: Self.🦕, table:"Dinosaurs")
+        let contentView = DynoTableDataView<DynoTable<Dinosaur>>(dyno: Self.🦕, table:"Dinosaurs")
 
         // Create the window and set the content view. 
         window = NSWindow(
