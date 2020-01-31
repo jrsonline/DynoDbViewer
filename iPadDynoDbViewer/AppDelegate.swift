@@ -7,6 +7,7 @@
 //
 
 import UIKit
+let OB_KEY_1 = "AppDelegate"
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

@@ -11,7 +11,7 @@ import SwiftUI
 import Dyno
 import DynoTableDataView
 
-
+let OB_KEY_2 = "SceneDelegate"
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -19,13 +19,12 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
-        // Use this method to optionally configure and attach the UIWindow `window` to the provided UIWindowScene `scene`.
-        // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
-        // This delegate does not imply the connecting scene or session are new (see `applicaapple-reference-documentation://hsDa2tUHY6tion:configurationForConnectingSceneSession` instead).
+        // This method of obfuscation is VERY simple and not really suitable for
+        // production code
         let region = NSDataAsset(name:"Region")
-        let credentials = NSDataAsset(name: "Credentials")
+        let credentials = _obfuscate(data: NSDataAsset(name: "Credentials")!.data, key1: OB_KEY_1, key2: OB_KEY_2, deobfuscate: true)
         let 🦕 : Dyno = Dyno(region: String(data: region!.data, encoding: .utf8),
-                               credentialData: credentials!.data,
+                               credentialData: credentials,
                                options: DynoOptions(log: true))!
 
         let contentView = DynoTableDataView<DynoTable<Dinosaur>>(dyno: 🦕, table:"Dinosaurs", autoRefreshPeriod: 5)
@@ -70,3 +69,27 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
 }
 
+
+infix operator %%
+func %% (n:Int, mod:Int) -> Int {
+    let m = (n % mod)
+    if m < 0 {
+        return (m+mod)
+    } else {
+        return m
+    }
+}
+func _obfuscate(data: Data, key1: String, key2: String, deobfuscate: Bool = false) -> Data {
+    let dkey = (key1+key2).data(using: .ascii)!
+    
+    var keyIdx = 0
+    var outData = ""
+    
+    for d in data {
+        let val = Int(d) + Int(dkey[keyIdx]) * (deobfuscate ? -1 : 1)
+        let p = Data(repeating: UInt8( val %% 128 ), count: 1)
+        outData += String(data: p, encoding: .ascii)!
+        keyIdx = (keyIdx+1) % dkey.count
+    }
+    return outData.data(using: .ascii)!
+}
